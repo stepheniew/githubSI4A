@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perhitungan IPS</title>
+</head>
+<body>
+<h2>Perhitungan IPS</h2>
+<form id="ipsForm">
+    <label for="nilai">Nilai Mata Kuliah:</label>
+    <input type="text" id="nilai" name="nilai" placeholder="Contoh: A, A-, B+, ..." required><br><br>
+    
+    <label for="sks">Bobot Kredit SKS:</label>
+    <input type="text" id="sks" name="sks" placeholder="Contoh: 3, 4, 2, ..." required><br><br>
+    
+    <button type="button" onclick="hitungIPS()">Hitung IPS</button>
+</form>
+
+<div id="result"></div>
+
+<script src="anjai.js"></script>
+</body>
+</html>
